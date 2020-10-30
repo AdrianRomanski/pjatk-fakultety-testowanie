@@ -18,10 +18,10 @@ import static org.mockito.Mockito.*;
 
 class ChildrenCalculatorTest {
 
-    public static final int RESULT_ADD = 5;
-    public static final int RESULT_MULTIPLY = 6;
-    public static final int RESULT_SUBTRACT = -1;
-    public static final int RESULT_DIVIDE = 0;
+    public static final int RESULT_ADD = 12;
+    public static final int RESULT_MULTIPLY = 20;
+    public static final int RESULT_SUBTRACT = 8;
+    public static final int RESULT_DIVIDE = 5;
 
     @Mock
     Add add;
@@ -38,8 +38,8 @@ class ChildrenCalculatorTest {
     @InjectMocks
     ChildrenCalculator childrenCalculator;
 
-    public static final Integer FIRST = 2;
-    public static final Integer SECOND = 3;
+    public static final Integer FIRST = 10;
+    public static final Integer SECOND = 2;
 
 
     @BeforeEach
