@@ -1,18 +1,17 @@
 package calculator.children_calculator;
 
-import calculator.children_calculator.calculator.ChildrenCalc;
+import calculator.children_calculator.calculator.BasicCalculator;
 import calculator.operations.integer_operations.Add;
 import calculator.operations.integer_operations.Divide;
 import calculator.operations.integer_operations.Multiply;
 import calculator.operations.integer_operations.Subtract;
 
-public class ChildrenCalculator implements ChildrenCalc {
+public class ChildrenCalculator implements BasicCalculator<Integer> {
 
     Add add = new Add();
     Subtract subtract = new Subtract();
     Multiply multiply = new Multiply();
     Divide divide = new Divide();
-
 
     @Override
     public Integer add(Integer first, Integer second) {
